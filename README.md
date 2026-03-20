@@ -113,10 +113,26 @@ cd ../client && npm install
 cd ../server && npm start
 cd ../client && npm run dev
 ```
-API URL: `VITE_API_URL` (default `http://localhost:5000/api/summarize`).
+API URL: `VITE_API_URL` (default `http://localhost:5000/api/summarize`).  
+
 
 #  Troubleshooting
 - 401: missing/incorrect API key in `.env`.  
 - 400: empty or oversized input.  
 - 429: hit rate limit; wait 60s or raise `RATE_LIMIT_MAX`.  
 - Timeout: shorten text or increase `LLM_TIMEOUT_MS`.
+
+
+### Screenshots (Demo )   
+
+
+
+
+<img width="1536" height="1024" alt="ChatGPT Image Mar 20, 2026, 03_54_16 PM" src="https://github.com/user-attachments/assets/a9933c09-9d3c-4d53-a171-a940e7b16ffa" />
+<img width="1536" height="1024" alt="ChatGPT Image Mar 20, 2026, 03_53_58 PM" src="https://github.com/user-attachments/assets/8a1898c9-75b0-4607-8426-bf15a2bb4aa8" />
+<img width="1536" height="1024" alt="ChatGPT Image Mar 20, 2026, 03_53_43 PM" src="https://github.com/user-attachments/assets/7d8492e2-df1e-4a3a-aefe-28f15e67bfb1" />
+<img width="1536" height="1024" alt="ChatGPT Image Mar 20, 2026, 03_53_40 PM" src="https://github.com/user-attachments/assets/ca719189-777e-4683-bf98-698ed6b423e7" />
+
+
+
+<img width="1024" height="1536" alt="ChatGPT Image Mar 20, 2026, 03_53_35 PM" src="https://github.com/user-attachments/assets/0466f381-b96a-4c55-b115-5107be612b55" />
